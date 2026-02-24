@@ -1,11 +1,8 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-import java.sql.Array;
 import java.util.Scanner;
 
 void main(String[] args) {
    Scanner scanner = new Scanner(System.in);
-   /**
+
    System.out.println("contagem de 0 a 100");
 
    for(int i = 0; i <= 100; i++) {
@@ -28,10 +25,10 @@ void main(String[] args) {
    }
    System.out.println(r);
 
-   int n = scanner.nextInt();
+   int u = scanner.nextInt();
    int x = 0;
    for(int i = 0; i <=10; i++) {
-      x = n * i;
+      x = u * i;
       System.out.println(x);
    }
 
@@ -53,24 +50,24 @@ void main(String[] args) {
    System.out.println("Digite os numeros");
 
    int i = 0;
-   double r = 0;
+   double b = 0;
    double media = 0;
 
    while (true){
-      int x = scanner.nextInt();
-      if (x == 0) break;
+      int o = scanner.nextInt();
+      if (o == 0) break;
       i++;
-      r = r + x;
-      media = r / i;
+      b = b + x;
+      media = b / i;
 
    }
    System.out.println(media);
-    **/
+
 
    int t = scanner.nextInt();
    String a ="*";
-   for (int i = 1; i <= t; ++i) {
-      System.out.print(a.repeat(i));
+   for (int c = 1; c <= t; ++c) {
+      System.out.print(a.repeat(c));
       System.out.println();
    }
 
